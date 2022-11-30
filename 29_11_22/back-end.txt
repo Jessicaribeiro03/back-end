@@ -1,0 +1,53 @@
+1-Ter dinheiro
+2- Escolher o site de compra
+    2.1- Pesquisar sites que apresentem o produto
+    2.2- Apresentar sites onde ocorra maior número de compras do produto
+    2.3 - Apresentar váriaveis de preços
+    2.5- Recomendar site Amazon para a compra
+3- Acessar o site confiável, como o da Amazon
+4- Se cadastrar no site da Amazon
+5- Inserir todos os meu dados
+6- Escolher o modelo de Mac
+7- Comparar modelos
+8- Escolher o modelo
+9- Colocar o modelo escolhido no carrinho
+10- Efetuar pagamento 
+11- Colocar dados de entrega
+12- Aguardar até que a entrega seja efetuada
+
+================================================================
+
+1- Coletar primeiro numero
+2- Coletar segundo numero
+3- Calcular e armazenar a soma entre o primeiro numero e segundo numero
+4- O resultado do seu calculo é a soma armazenada  
+
+==============================
+Entrada processamento saida
+==============================
+Var num1;
+var num2;
+var calculo;
+
+readln("Informe o primeiro numero:")
+readln("Informe o segundo numero:")
+
+calculo = num1 + num2;
+writeln("0 resultado do calculo é:", calculo;)
+
+==================================================================
+
+
+Homework: Fazer um programa que calcule o valor de imposto de renda baseado num salario. 
+(Aliquota Imposta de renda: 7,5%)
+Salario: 1500
+
+var 1500;
+const aliquota 7,5;
+var: resultado;
+
+readln( "var 01 * const aliquota":);
+
+
+
+
