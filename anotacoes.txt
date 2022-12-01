@@ -1,0 +1,119 @@
+1- Descrição Narrativa (Entrada- Processamento - Saida) 
+
+1- Solicitar o usuario o valor do salário
+2- Calcular o valor do imposto a recolher baseado na aliquota de 7,5%
+3- Mostrar o usuario o valor do imposto calculado
+
+2- Pseudocodigo
+
+const aliquota = 7,5%
+var salario
+var impostoDevido
+
+readln("Informe o salario", salario);
+impostoDevido =salario * aliquota;
+writeln("o valor do imposto devido é:", impostoDevido);
+
+
+================================================================================
+
+Tarefa de hoje
+
+Escrever um programa que baseado no valor do salário vai informar ao usuário, a aliquota do imposto de reda.
+
+Usando como regra a seguinte tabela
+
+Base do cálculo do Imposto de Renda
+
+
+Até R$1.903,98                   Isento
+DE R$ 1.903,98 ATÉ R$2.826,65    7,5%
+De R$ 2.826,66 até R$3.751,05    15%
+De R$ 3.751,06 até R$4.664,68    22,5%
+Acima de R$4.664,68              27,5%   
+
+
+1. Descriçao narrativa
+
+
+1. Solicitar ao usuario o valor do seu salário
+
+2. Se o salário for menor ou igual a R$ 1.903.98 então você está livre do leão (ISENTO)  <=
+
+
+3. Se o salário for maior que R$1.903,99 e menor que R$2.826,65 então escreva: "Sua aliquota é de 7,5%"
+
+4. Se o salário for maior que R$$2.826,66 e menor que R$3.751,05 então escreva: "Sua aliquota é de 15%"
+
+5. Se o salário for maior que R$3.751,06 e menor que R$4.664,68 então escreva: "Sua aliquota é de 22,5%"
+
+6. Se o salário for maior que R$ 4.664,69  então escreva: "Sua aliquota é de 27,5%"
+
+
+
+2- Pseudocodigo
+
+const faixa1= "ISENTO"
+CONST faixa2="7,5%"
+CONST faixa3="15%"
+CONST faixa4="22,5%"
+CONST faixa5="27,5%"
+ver salario
+
+readln("Informar o valor do seu salario", salario);
+
+if(salario <= 1.903.98)then
+  writenln("Você está livre do Leão",faixa1);    (IF = quando se tem apena suma condição)
+
+
+elseif(salario >= 1.903.99 and <=2.826,65)then
+  writenln("Sua aliquota é de",faixa2);        (ELSEIF=  quando há mais de uma condição alinhada)
+
+
+elseif(salario >= 2.826,66 and <=3.751,05)then
+  writenln("Sua aliquota é de",faixa3);   
+
+
+  elseif(salario >= 3.751,06 and <=4.664,68)then
+  writenln("Sua aliquota é de",faixa4); 
+
+  else                                                (Else= quando não há outra opção)
+  """"writenln("Sua aliquota é de",faixa5);
+
+
+homework
+
+Classifique os dados especificados abaixo de acordo com seu tipo, assinalando com I os
+dados do tipo inteiro, com R os reais, com L os literais, com B os lógicos (booleanos), e
+com N aqueles para os quais não é possível definir a priori um tipo de dado. 
+
+R - reais   L - literais  B - lógicos  N - sem definição
+
+
+(R ) 0.21
+(R ) 1
+(B ) V
+(L) “0.”
+( R) 1%
+(L ) “José”
+( ) 0,35
+( ) .F.
+( ) -0.001
+(N) .T.
+( R) +3257
+(L ) “a”
+( ) “+3257”
+( N) +3257.
+( ) “-0.0”
+(L ) “.F.”
+( ) ± 3
+(N ) .V.
+( ) .V
+(L ) “abc”
+(B ) F
+( ) C
+(N ) Maria
+( R) +36
+
+
+
