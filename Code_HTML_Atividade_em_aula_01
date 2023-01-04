@@ -1,0 +1,32 @@
+<!DOCTYPE html >
+<html>
+    <head>
+        <title> Front-End Senai </title>
+    </head>
+    
+    <body> 
+        <img src= "http://www.firjan.com.br/custom/FIRJAN/Portal/images/geral/main_logo.png"   width="300" </img>
+
+
+        <h2> Front-End </h2>
+        <hr>
+        <h3> Materias Cursadas: </h3>
+        <ul>
+            <li>Iniciação a Tecnologia da Informação </li>
+            <li> Logica de Programação </li>
+            <li> Front-end Essencial </li>
+        </ul>
+
+
+        <p>
+            <a href="file:///C:/Users/tri0020060/Desktop/Jessica/02_01_2023/3/atividade_em_aula_02.html" target="_blank" >Clique aqui para acessar o curso </a>
+        </p>
+
+        <p>
+            <a href="https://www.firjan.com.br/senai/" target="_blank" >Clique aqui para acessar Senai </a>
+        </p>
+
+
+    </body>
+    
+ </html>           
