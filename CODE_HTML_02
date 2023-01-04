@@ -1,0 +1,43 @@
+<!DOCTYPE html >
+<html>
+    <head>
+        <title> Receitas Fitness </title>
+    </head>
+    
+    <body> 
+        <img src= "https://play-lh.googleusercontent.com/juJwnMW54610pYUsB2vHA2vW6Y-ymsjbFpzZKTbeM-X1T0R4cmT4GwGxy2Z91kK-KLuL"   width="200" /img>
+
+        <p>
+            <a href="https://www.youtube.com/watch?v=7wJ0no6jIZ8" target="_blank" >Clique aqui para acessar o vídeo da receita </a>
+        </p>
+
+        <p>
+            <a href="imagem/milao">Milão</a>  
+        </p>
+
+        <h1> Bolo de Banana com Aveia </h1>
+        <hr>
+        <h3> Ingredientes: </h3>
+        <ul>
+            <li> 2 ovos </li>
+            <li> 2 colheres (sopa) de óleo </li>
+            <li> 2 bananas-nanica maduras, amassadas </li>
+            <li> 2 colheres (sopa) de nozes tostadas e picadas </li>
+            <li> 4 colheres (sopa) de Farelo de Aveia Orgânica Sem Glúten NESTLÉ® </li>
+            <li> meia colher (sopa) de canela em pó </li>
+            <li> 1 colher (sopa) de fermento em pó </li>
+        
+        </ul>
+        <h3> Modo de Preparo: </h3>
+        <ul>
+            <li> Em um recipiente, bata os ovos com o óleo. </li>
+
+            <li> Acrescente as bananas e misture até ficar homogêneo.Adicione o restante dos ingredientes, deixando o fermento por último. </li>
+
+            <li> Em uma forma de furo central (19 cm de diâmetro) untada com óleo e polvilhada com farelo de aveia e canela em pó, despeje a massa e asse em forno médio (180°C), preaquecido, por cerca de 25 minutos. </li>
+        </ul> 
+       
+    </body>
+
+</html>
+    
