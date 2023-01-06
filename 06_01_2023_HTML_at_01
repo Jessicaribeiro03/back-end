@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Formulario </title>
+
+    </head>
+
+
+    <body>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX0kbMk-20Xo3AHotIgJtQ70XXIhM1X9-wQ&usqp=CAU"  width="300" </img>
+
+       
+
+        <forms>
+            <h3> DADOS PESSOAIS </h3>
+            <p><label>Nome: </label><input type="text" name="name" value=""></p>
+            <p><label>cpf </label> <input type="text" name="cpf" value=""></p>
+            <p><label>Telefone </label> <input type="text" name="telefone" value=""></p>
+            <p><label>Possui Dependentes? :  </label> <input type="checkbox" name="password" value=""></p>
+            <p><label>Nascimento: </label> <input type="text" name="datetime" value=""></p>
+            <p><label>Email: </label> <input type="text" name="datetime" value=""></p>
+            <p><label</label><input type="submit" name="ENVIAR" value="ENVIAR"></p>
+
+
+        </forms>
+
+    </body>
+
+</html>
