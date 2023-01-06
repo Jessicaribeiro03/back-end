@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="text-align: center;">
 
     <head>
         <title> Formulario </title>
@@ -9,12 +9,13 @@
 
     <body>
 
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX0kbMk-20Xo3AHotIgJtQ70XXIhM1X9-wQ&usqp=CAU"  width="300" </img>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-DlLDg0OPBpQKHdtU5DVFq-NC2fPjpZkfFA&usqp=CAU"  width="400" </img>
 
        
 
         <forms>
-            <h3> DADOS PESSOAIS </h3>
+            <h2> DADOS PESSOAIS </h2>
+            <hr>
             <p><label>Nome: </label><input type="text" name="name" value=""></p>
             <p><label>cpf </label> <input type="text" name="cpf" value=""></p>
             <p><label>Telefone </label> <input type="text" name="telefone" value=""></p>
