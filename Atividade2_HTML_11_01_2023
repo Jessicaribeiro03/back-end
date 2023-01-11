@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title> Quadrados </title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 preto ">
+              1
+            </div>
+            <div class="col-sm-3 branco">
+             4
+
+            </div>
+        
+            <div class="col-sm-3 preto">
+              7
+            </div>
+
+            <div class="col-sm-3 branco">
+              10
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3 branco">
+              2
+            </div>
+            <div class="col-sm-3 preto">
+             5
+
+            </div>
+        
+            <div class="col-sm-3 branco">
+              8
+            </div>
+
+            <div class="col-sm-3 preto">
+              11
+            </div>
+            
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3 preto">
+              3
+            </div>
+            <div class="col-sm-3 branco">
+             6
+
+            </div>
+        
+            <div class="col-sm-3 preto">
+              9
+            </div>
+
+            <div class="col-sm-3 branco">
+              12
+            </div>
+            
+        </div>
+    </div>
+    
+    
+.preto{
+    border: 3px solid white;
+    border-color: white;
+    background-color:black;
+    border-radius: 15px;
+    height: 200px;
+    font-size: xx-large;
+    color: white;
+    }
+
+.branco{
+    border: 3px solid white;
+    border-color: white;
+    background-color:whitesmoke;
+    border-radius: 15px;
+    height: 200px;
+    font-size: xx-large;
+    color: black;
+    }
+
+
