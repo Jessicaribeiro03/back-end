@@ -1,0 +1,42 @@
+create table if not exists biblioteca(
+    id SERIAL,
+    cnpj varchar(14) NOT NULL,
+    nome_fantasia varchar(50) NOT NULL,
+    primary key (id)    
+);
+
+
+create table assunto (
+    id SERIAL,
+    descricao varchar(30) NOT NULL,
+    andar varchar(20) NOT NULL,
+    primary key (id)
+);
+
+
+create table livro (
+        id SERIAL,
+        titulo varchar(50)  NOT NULL,
+        prefacio varchar(500)  NOT NULL,
+        pagina integer  NOT NULL,
+        assunto_id integer,
+       biblioteca_id integer,
+        constraint biblioteca_livro_fk
+            foreign key (biblioteca_id)
+                references biblioteca (id),
+        constraint assunto_livro_fk
+            foreign key (assunto_id)
+                references assunto (id),
+        primary key (id)
+);
+
+
+
+create table livro_autor(
+    id SERIAL,
+    livro_id integer NOT NULL,
+    autor_id integer NOT NULL,
+    constraint livro_autor_fk
+        foreign key livro(id)
+
+)
