@@ -40,3 +40,26 @@ create table livro_autor(
         foreign key livro(id)
 
 )
+
+
+
+
+insert into biblioteca(cnpj, nome_fantasia)
+values ('123654789658745', 'Luna')
+
+insert into assunto(descricao, andar)
+values ('comedia', '1')
+
+insert into livro(titulo, prefacio, pagina, assunto_id, biblioteca_id)
+values ('Os farofeiros', 'prefacio do livro 1', 200, 1, 1)
+
+insert into autor(nome_completo, email)
+values ('Jessica', 'jessica.ribeiro03@hotmail.com')
+
+
+insert into livro_autor(autor_id, livro_id )
+values ('Jessica', ' a cabana')
+
+
+
+select * from ..... ( livro, biblioteca, autor, assunto)
