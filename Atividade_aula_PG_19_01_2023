@@ -43,3 +43,15 @@ create table dependente(
     foreign key(funcionario_id)
             references (funcionario_id)
 )
+
+
+select * from ... (empresa, departamento, dependentes ...)
+
+ou
+
+selectf.nome, d.nome from funcionario.f
+join departamento.d
+on f.departamento_id = d.id
+
+
+
