@@ -1,0 +1,86 @@
+App.tsx
+
+import { useState, useEffect, useRef } from 'react'
+import NavbarLocal from "./NavbarLocal"
+import FormLocal from "./FormLocal"
+import ButtonLocal from "./ButtonLocal"
+
+export default function App() {
+  
+  return <div>
+   
+    <NavbarLocal name= "Jessica" link1= "Home"  link2= "Sobre" link3="Redes Sociais"></NavbarLocal> 
+      <FormLocal></FormLocal>
+    <ButtonLocal name="Enviar"> </ButtonLocal>
+
+  </div>   
+	
+}
+
+
+ButtonLocal.tsx
+
+import { Button } from 'react-bootstrap'
+
+export default function ButtonLocal(props) {
+  return <Button variant="primary" type="submit">
+    {props.name}
+
+  </Button>
+}
+
+FormLocal.tsx
+
+import { Form, Button, Container } from 'react-bootstrap'
+
+export default function FormLocal() {
+  return <Container>
+    <Form>
+      <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Label>Email address</Form.Label>
+        <Form.Control type="email" placeholder="Enter email" />
+        <Form.Text className="text-muted">
+          We'll never share your email with anyone else.
+        </Form.Text>
+      </Form.Group>
+    </Form>
+
+  </Container>
+}
+
+
+
+index.tsx
+
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+)
+
+
+
+NavbarLocal.tsx
+
+
+
+import{ Navbar, Container, Nav } from "react-bootstrap"
+
+export default function NavebarLocal(props) {
+  return <Navbar bg="dark" variant="dark">
+			<Container>
+				<Navbar.Brand href="#home">{props.name}</Navbar.Brand>
+				<Nav className="me-auto">
+					<Nav.Link href="#home">{props.link1}</Nav.Link>
+					<Nav.Link href="#features">{props.link2}</Nav.Link>
+					<Nav.Link href="#pricing">{props.link3}</Nav.Link>
+				</Nav>
+			</Container>
+		</Navbar>;
+  
+}
